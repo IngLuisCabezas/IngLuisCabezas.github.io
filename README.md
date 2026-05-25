@@ -9,7 +9,8 @@ Sitio de una página basado en el CV, listo para **GitHub Pages**.
 | `index.html` | Página principal |
 | `styles.css` | Estilos |
 | `script.js` | Menú móvil y año en el pie |
-| `CV_Ing.LuisCabezas.pdf` | CV descargable |
+| `profile.jpeg` | Foto de perfil |
+| `CV_Ing.LuisCabezas.pdf` | CV (solo en rama `master`) |
 
 ## Publicar en GitHub Pages
 
@@ -24,8 +25,8 @@ Sitio de una página basado en el CV, listo para **GitHub Pages**.
 
 ## Personalizar
 
-- **LinkedIn:** en `index.html`, reemplaza el enlace `https://www.linkedin.com/in/` por tu URL completa.
-- **Foto (opcional):** agrega una imagen y un bloque en la sección hero si lo deseas.
+- **Rama `master`:** versión inicial (con References y descarga de PDF).
+- **Rama `improve`:** versión mejorada (foto, LinkedIn, certificaciones primero, paleta tech).
 
 ## Vista local
 

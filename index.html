@@ -8,7 +8,7 @@
   <title>Luis Cabezas | Platform Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@500;600&family=Orbitron:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,8 +24,9 @@
         <ul class="nav-links" id="nav-menu">
           <li><a href="#perfil">Profile</a></li>
           <li><a href="#habilidades">Skills</a></li>
+          <li><a href="#certificaciones">Certifications</a></li>
           <li><a href="#experiencia">Experience</a></li>
-          <li><a href="#formacion">Education</a></li>
+          <li><a href="#educacion">Education</a></li>
           <li><a href="#contacto">Contact</a></li>
         </ul>
       </nav>
@@ -36,15 +37,26 @@
     <section class="hero" id="inicio">
       <div class="container hero-grid">
         <div class="hero-content">
-          <span class="hero-badge">Available · Relocation &amp; travel</span>
-          <h1>Luis Alberto Cabezas Moreno</h1>
-          <p class="hero-role">Platform Engineer</p>
+          <div class="hero-intro">
+            <img
+              class="profile-photo"
+              src="profile.jpeg"
+              alt="Luis Alberto Cabezas Moreno"
+              width="168"
+              height="168"
+            >
+            <div class="hero-intro-text">
+              <span class="hero-badge">Available · Relocation &amp; travel</span>
+              <h1>Luis Alberto Cabezas Moreno</h1>
+              <p class="hero-role">Platform Engineer</p>
+            </div>
+          </div>
           <p class="hero-summary">
             IT professional passionate about cloud solutions and their power to transform businesses into high-performance digital enterprises. 9+ years across telecommunications, digital ID, payment systems, and IT service monitoring.
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#contacto">Get in touch</a>
-            <a class="btn btn-outline" href="CV_Ing.LuisCabezas.pdf" download>Download CV (PDF)</a>
+            <a class="btn btn-outline" href="https://www.linkedin.com/in/ing-luis-alberto-cabezas-moreno/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
           <div class="profile-highlights">
             <div class="highlight-item">
@@ -90,8 +102,7 @@
               <span class="icon" aria-hidden="true">🔗</span>
               <div>
                 <strong>LinkedIn</strong>
-                <!-- Replace # with your full LinkedIn profile URL -->
-                <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                <a href="https://www.linkedin.com/in/ing-luis-alberto-cabezas-moreno/" target="_blank" rel="noopener noreferrer">ing-luis-alberto-cabezas-moreno</a>
               </div>
             </li>
             <li>
@@ -166,6 +177,51 @@
           <article class="skill-card">
             <h3>Operating Systems</h3>
             <p>Windows, Linux (Red Hat), Unix (AIX).</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificaciones">
+      <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-subtitle">Validated cloud, DevOps, and IT service management credentials.</p>
+        <div class="cards-grid">
+          <article class="cert-card">
+            <h3>AWS Certified Solutions Architect – Associate</h3>
+            <p class="issuer">AWS Training and Certification</p>
+            <p>December 2024</p>
+            <p class="cert-validation">0ee89781efcc43faa61a5dd80a30f3c7</p>
+          </article>
+          <article class="cert-card">
+            <h3>Microsoft Certified: Azure Fundamentals</h3>
+            <p class="issuer">Learn Microsoft</p>
+            <p>September 2025</p>
+            <p class="cert-validation">46071780C6ADD79A</p>
+          </article>
+          <article class="cert-card">
+            <h3>AWS Certified Cloud Practitioner</h3>
+            <p class="issuer">AWS Training and Certification</p>
+            <p>April 2023</p>
+            <p class="cert-validation">B3KQSY12WEE4QR5E</p>
+          </article>
+          <article class="cert-card">
+            <h3>DevOps Certified Associate</h3>
+            <p class="issuer">IT Certificate</p>
+            <p>October 2022</p>
+            <p class="cert-validation">kgGib1CnbA</p>
+          </article>
+          <article class="cert-card">
+            <h3>Jenkins Fundamentals</h3>
+            <p class="issuer">A Cloud Guru</p>
+            <p>June 2023</p>
+            <p class="cert-validation">896B5D043918</p>
+          </article>
+          <article class="cert-card">
+            <h3>ITIL® Foundation Certificate in IT Service Management</h3>
+            <p class="issuer">PEOPLECERT</p>
+            <p>December 2017</p>
+            <p class="cert-validation">GR750356096LC</p>
           </article>
         </div>
       </div>
@@ -281,73 +337,16 @@
       </div>
     </section>
 
-    <section id="formacion">
+    <section id="educacion">
       <div class="container">
-        <h2 class="section-title">Education &amp; Certifications</h2>
-        <p class="section-subtitle">Academic background and validated credentials.</p>
-
-        <h3 class="subsection-heading">Education</h3>
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">Academic background.</p>
         <div class="cards-grid">
           <article class="edu-card">
             <h3>Electronic Engineer</h3>
             <p class="institution">Universidad Popular del Cesar</p>
             <p>Valledupar, Cesar, Colombia · December 2013</p>
             <p class="cert-validation">Validation: CN206-111597</p>
-          </article>
-        </div>
-
-        <h3 class="subsection-heading">Certifications</h3>
-        <div class="cards-grid">
-          <article class="cert-card">
-            <h3>AWS Certified Solutions Architect – Associate</h3>
-            <p class="issuer">AWS Training and Certification</p>
-            <p>December 2024</p>
-            <p class="cert-validation">0ee89781efcc43faa61a5dd80a30f3c7</p>
-          </article>
-          <article class="cert-card">
-            <h3>Microsoft Certified: Azure Fundamentals</h3>
-            <p class="issuer">Learn Microsoft</p>
-            <p>September 2025</p>
-            <p class="cert-validation">46071780C6ADD79A</p>
-          </article>
-          <article class="cert-card">
-            <h3>AWS Certified Cloud Practitioner</h3>
-            <p class="issuer">AWS Training and Certification</p>
-            <p>April 2023</p>
-            <p class="cert-validation">B3KQSY12WEE4QR5E</p>
-          </article>
-          <article class="cert-card">
-            <h3>DevOps Certified Associate</h3>
-            <p class="issuer">IT Certificate</p>
-            <p>October 2022</p>
-            <p class="cert-validation">kgGib1CnbA</p>
-          </article>
-          <article class="cert-card">
-            <h3>Jenkins Fundamentals</h3>
-            <p class="issuer">A Cloud Guru</p>
-            <p>June 2023</p>
-            <p class="cert-validation">896B5D043918</p>
-          </article>
-          <article class="cert-card">
-            <h3>ITIL® Foundation Certificate in IT Service Management</h3>
-            <p class="issuer">PEOPLECERT</p>
-            <p>December 2017</p>
-            <p class="cert-validation">GR750356096LC</p>
-          </article>
-        </div>
-
-        <h3 class="subsection-heading">References</h3>
-        <div class="cards-grid">
-          <article class="ref-card">
-            <h3>Juan Miguel Bermudez</h3>
-            <p class="role">Solutions Architect, Amazon Web Services Colombia</p>
-            <p><a href="tel:+573165448723">+57 316 544 8723</a></p>
-          </article>
-          <article class="ref-card">
-            <h3>Eberto Benjumea</h3>
-            <p class="role">Ph.D. in Engineering (Electronics &amp; Computing)</p>
-            <p>Universidad Tecnológica de Bolívar, Colombia</p>
-            <p><a href="tel:+573012912443">+57 301 291 2443</a></p>
           </article>
         </div>
       </div>
